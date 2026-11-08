@@ -2574,7 +2574,7 @@ return view.extend({
 			uci.add('wireless', 'wifi-iface', section_id);
 			uci.set('wireless', section_id, 'device', radioDev.getName());
 			uci.set('wireless', section_id, 'mode', 'ap');
-			uci.set('wireless', section_id, 'ssid', 'OpenWrt');
+			uci.set('wireless', section_id, 'ssid', 'ILP32Wrt');
 			uci.set('wireless', section_id, 'encryption', 'none');
 
 			m.addedSection = section_id;
